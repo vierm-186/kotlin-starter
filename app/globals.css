@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #__next {
+    height: 100%;
+  }
+}
+
+@layer utilities {
+  .bg-canvas { @apply bg-[#08090a]; }
+  .border-borders-hairline { @apply border-[rgba(255,255,255,0.08)]; }
+  .bg-surface1 { @apply bg-[#121316]; }
+  .bg-surface2 { @apply bg-[#181a1f]; }
+}
